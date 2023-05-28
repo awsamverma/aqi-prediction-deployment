@@ -4,6 +4,7 @@ import pickle
 import matplotlib.pyplot as plt
 import base64
 from io import BytesIO
+from sklearn.ensemble import RandomForestRegressor
 
 # Load the model from disk
 loaded_model = pickle.load(open('random_forest_regression_model.pkl', 'rb'))
